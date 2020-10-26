@@ -27,6 +27,11 @@ height: 100%;
   margin: 0 auto;
 }
 
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .row{
   width: 100%;
 }

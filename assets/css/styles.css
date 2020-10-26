@@ -15,6 +15,12 @@ body{
 .pl_1{
   padding-left: 1rem;
 }
+.pt_20{
+  padding-top: 20px;
+}
+.lighter {
+  font-weight: 200;
+}
 /* /utility */
 
 /* header */
@@ -86,22 +92,56 @@ a{
 
 /* main */
 #models{
-  padding: 2rem;
+  padding: 5rem;
 }
 #models .card{
   text-align: center;
   background-color: #fafafa;
 }
-
-#models .go {
-  font-weight: lighter;
-}
-
 #models .card h2{
-  padding: 80px 15px 15px 0;
-
+  padding: 80px 15px 0;
+}
+#models .card p{
+  padding: 20px;
+  font-size: 24px;
+  line-height: 24px;
+}
+#models .card a{
+  color: #0070c8;
 }
 #models .card img{
 width: 100%;
+}
+
+.banner{
+  height: 500px;
+  background-image: url(../img/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 7%;
+  min-width:1170px;
+}
+
+#slider .container{
+  min-width: 1500px;
+}
+#slider .col-lg-4:nth-child(2){
+  text-align: center;
+  height: 175px;
+}
+#slider .col-lg-4 img{
+  height: 500px;
+  transform: translateY(-65%)
+}
+#slider h2{
+  font-size: 32px;
+  padding-top: 30px;
+  width: 70%;
+  margin-left: 30%;
+}
+#slider h3{
+  font-size: 1.25rem;
+  padding: 30px 0 15px;
+  width: 70%;
 }
 /* /main */
